@@ -1,12 +1,7 @@
-import ReactDom from "react-dom";
-import NavBar from "./components/nav-bar/navbar";
+import reactDom from "react-dom";
+import App from "./components/App";
 
-function App(){
-    return(
-        <div>
-            <NavBar />
-        </div>
-    );
-}
 
-ReactDOM.render(<App />, document.querySelector(".root"));
+
+
+reactDom.render(<App />, document.querySelector(".root"));
