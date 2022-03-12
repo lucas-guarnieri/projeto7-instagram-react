@@ -1,5 +1,6 @@
 export default function Story(props){
     const {imagem, usuario} = props;
+    
     return(
         <div class="story">
             <div class="imagem">

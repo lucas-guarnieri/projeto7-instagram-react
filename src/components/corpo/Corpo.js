@@ -1,10 +1,11 @@
 import Esquerda from "./esquerda/Esquerda";
-//IMPORT SIDEBAr
+import Sidebar from "./sidebar/Sidebar";
 
 export default function Corpo(){
     return(
         <div class="corpo">
             <Esquerda />
+            <Sidebar />
         </div>
     );
 }

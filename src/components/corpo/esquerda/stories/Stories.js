@@ -1,5 +1,5 @@
-import Story from "./Story"
-import Setinha from "./Setinha"
+import Story from "./Story";
+import Setinha from "./Setinha";
 
 export default function Stories(){
     const dadosStories = [
