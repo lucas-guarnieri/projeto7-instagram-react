@@ -22,7 +22,7 @@ export default function Posts(){
 
     return(
         <div class="posts">
-            {dadosPosts.map(dado => <Post imgUsuario={dado.imgUsuario} usuario={dado.usuario} imgConteudo={dado.imgConteudo} mainCurtidas={dado.mainCurtidas} numCurtidas={dado.numCurtidas}/>)}
+            {dadosPosts.map(dado => <Post imgUsuario={dado.imgUsuario} usuario={dado.usuario} imgConteudo={dado.imgConteudo} imgCurtidas={dado.imgCurtidas} mainCurtidas={dado.mainCurtidas} numCurtidas={dado.numCurtidas}/>)}
         </div>
     )
 }
